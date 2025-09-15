@@ -33,7 +33,7 @@ public class Main {
             System.out.println("Prawidłowa liczba");
         }
         else{
-            System.out.println("zle prawidłowa liczba to"+wpisanaliczba);
+            System.out.println("zle prawidłowa liczba to"+LosowaLiczba;
         }
 
 
