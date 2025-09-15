@@ -34,7 +34,16 @@ public class Main {
         }
         else{
             System.out.println("zle prawidłowa liczba to"+LosowaLiczba);
+            if (LosowaLiczba>wpisanaliczba){
+            int roznica = LosowaLiczba-wpisanaliczba;
+                System.out.println("roznica wynosi"+roznica);
+            }else {
+            int roznica = wpisanaliczba-LosowaLiczba;
+            System.out.println("roznica wynosi"+roznica);
+            }
+
         }
+      //wyrazenie warunkowe
 
 
 
