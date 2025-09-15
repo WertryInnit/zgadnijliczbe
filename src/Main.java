@@ -28,7 +28,7 @@ public class Main {
         //wpisywanie liczby
         System.out.println("podaj liczbe");
         Scanner LiczbapInput=new Scanner(System.in);
-        int wpisanaliczba=LiczbapInput.nextInt()
+        int wpisanaliczba=LiczbapInput.nextInt();
         if(LosowaLiczba==wpisanaliczba){
             System.out.println("Prawidłowa liczba");
         }
