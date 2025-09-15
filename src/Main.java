@@ -24,7 +24,7 @@ public class Main {
         * napisz program w którym zgadniesz liczbe wylosowana z zakresu od 1-100
         *
         * */
-        int LosowaLiczba= (int)Math.random()*100+1;//rzutowanie
+        int LosowaLiczba= (int)(Math.random()*100+1);//rzutowanie
         //wpisywanie liczby
         System.out.println("podaj liczbe");
         Scanner LiczbapInput=new Scanner(System.in);
@@ -33,7 +33,7 @@ public class Main {
             System.out.println("Prawidłowa liczba");
         }
         else{
-            System.out.println("zle prawidłowa liczba to"+LosowaLiczba;
+            System.out.println("zle prawidłowa liczba to"+LosowaLiczba);
         }
 
 
